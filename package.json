@@ -1,0 +1,25 @@
+{
+  "name": "botarium",
+  "version": "1.0.0",
+  "description": "A simple starter kit for building bots using Node + TypeScript + BotKit.",
+  "scripts": {
+    "postinstall": "typings install",
+    "init": "tsc --pretty",
+    "tsc:watch": "tsc -w",
+    "serve": "nodemon --debug --watch dist/ -d 1 ./dist/main.js",
+    "debug": "node-inspector"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "botkit": "^0.2.2",
+    "bunyan": "^1.8.1",
+    "dotenv": "^2.0.0"
+  },
+  "devDependencies": {
+    "node-inspector": "^0.12.8",
+    "nodemon": "^1.9.2",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.1"
+  }
+}
