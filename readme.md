@@ -12,3 +12,7 @@ A simple starter kit for building bots using Node + TypeScript + BotKit.
 ### Other run scripts
 
 1. `npm run tsc:watch` to auto-compile the source .ts files in `src` directory.
+
+### Examples
+
+

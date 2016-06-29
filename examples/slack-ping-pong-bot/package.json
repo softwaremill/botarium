@@ -1,7 +1,7 @@
 {
-  "name": "botarium",
+  "name": "slack-ping-pong-bot",
   "version": "1.0.0",
-  "description": "A simple starter kit for building bots using Node + TypeScript + BotKit.",
+  "description": "Slack bot that replies to ping messages",
   "scripts": {
     "postinstall": "typings install",
     "init": "tsc --pretty",
