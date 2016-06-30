@@ -13,6 +13,17 @@ A simple starter kit for building bots using Node + TypeScript + BotKit.
 
 1. `npm run tsc:watch` to auto-compile the source .ts files in `src` directory.
 
+### Environment variables
+
+This project uses [dotenv](https://github.com/motdotla/dotenv) to set custom environment variables. Simply add an `.env` file and put your variables there.
+
+In order to implement a Slack Bot for example you need to provide a token for BotKit. To do this, you can simply create an `.env` file and
+add a `BOT_TOKEN` variable. This variable is defined in [.env.template](.env.template) file.
+
 ### Examples
+
+There is currently one example showing how to implement a simple bot for Slack - [slack-ping-pong-bot](examples/slack-ping-pong-bot)
+
+Other examples for BotKit are available at [BotKit's GitHub examples folder](https://github.com/howdyai/botkit/tree/master/examples).
 
 
