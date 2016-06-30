@@ -20,6 +20,10 @@ This project uses [dotenv](https://github.com/motdotla/dotenv) to set custom env
 In order to implement a Slack Bot for example you need to provide a token for BotKit. To do this, you can simply create an `.env` file and
 add a `BOT_TOKEN` variable. This variable is defined in [.env.template](.env.template) file.
 
+### Register your bot on slack
+
+To obtain a bot token, register your bot on https://<your-company-name>.slack.com/apps/new
+
 ### Examples
 
 There is currently one example showing how to implement a simple bot for Slack - [slack-ping-pong-bot](examples/slack-ping-pong-bot)
